@@ -28,7 +28,6 @@
     </platform>
     
     <platform name="android">
-		<!--<hook type="before_compile" src="hooks/before_compile/edit_manifest.js"/>-->
         <config-file target="AndroidManifest.xml" parent="/*">
             <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
             <uses-permission android:name="android.permission.INTERNET"/>
