@@ -27,6 +27,10 @@ dependencies {
     implementation "com.jumio.android:nv-barcode-vision:${SDK_VERSION}@aar"
     implementation "com.jumio.android:face:${EXTRA_SDK_VERSION}@aar"
     implementation "com.jumio.android:dv:${SDK_VERSION}@aar"
+	
+	 //for core:
+    implementation "com.android.support:support-v4:27.1.1"
+    api "com.android.support:appcompat-v7:27.1.1"
 
     //for nv:
     implementation "com.google.android.material:material:1.0.0"
