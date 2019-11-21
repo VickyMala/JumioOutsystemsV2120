@@ -55,6 +55,9 @@ var disableAllowBackup = (function () {
 			root.set("xmlns:tools", "http://schemas.android.com/tools");
 			
 			root._children.forEach(function(item) {
+				console.log('#-------#------#----------------#-------#------#');
+				console.log('#-------#------#' + item.tag + '#-------#------#');
+				console.log('#-------#------#----------------#-------#------#');
 				if(item.tag === 'dependency') {
 					item.set('tools:replace', 'android:value');
 				}
