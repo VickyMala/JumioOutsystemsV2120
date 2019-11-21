@@ -8,19 +8,20 @@ repositories {
 
 ext {
     SDK_VERSION = "2.12.0"
+	EXTRA_SDK_VERSION = "3.0.0"
 }
 
 dependencies {
     implementation "com.jumio.android:core:${SDK_VERSION}@aar"
     implementation "com.jumio.android:bam:${SDK_VERSION}@aar"
-    implementation "com.jumio.android:auth:${SDK_VERSION}@aar"
+    implementation "com.jumio.android:auth:${EXTRA_SDK_VERSION}@aar"
     implementation "com.jumio.android:nv:${SDK_VERSION}@aar"
     implementation "com.jumio.android:nv-mrz:${SDK_VERSION}@aar"
     implementation "com.jumio.android:nv-nfc:${SDK_VERSION}@aar"
     implementation "com.jumio.android:nv-ocr:${SDK_VERSION}@aar"
     implementation "com.jumio.android:nv-barcode:${SDK_VERSION}@aar"
     implementation "com.jumio.android:nv-barcode-vision:${SDK_VERSION}@aar"
-    implementation "com.jumio.android:face:${SDK_VERSION}@aar"
+    implementation "com.jumio.android:face:${EXTRA_SDK_VERSION}@aar"
     implementation "com.jumio.android:dv:${SDK_VERSION}@aar"
 
     //for nv:
