@@ -14,7 +14,6 @@ ext {
 	EXTRA_SDK_VERSION = "3.0.0"
 }
 
-
 dependencies {
     implementation "com.jumio.android:core:${SDK_VERSION}@aar"
     implementation "com.jumio.android:bam:${SDK_VERSION}@aar"
@@ -52,7 +51,7 @@ dependencies {
 
 android {
 	compileSdkVersion 28
-    buildToolsVersion 28.0.3
+    buildToolsVersion "28.0.3"
 	
 	defaultConfig {
 		multiDexEnabled true
