@@ -4,9 +4,9 @@ repositories {
     jcenter()
 	maven { url 'http://mobile-sdk.jumio.com' }
     maven { url 'https://maven.google.com/' }
-	/*flatDir {
+	flatDir {
         dirs 'libs'
-      }*/
+      }
 }
 
 ext {
@@ -15,11 +15,10 @@ ext {
 }
 
 dependencies {
-	implementation "com.jumio.android:nv:${SDK_VERSION}@aar"
     implementation "com.jumio.android:core:${SDK_VERSION}@aar"
     implementation "com.jumio.android:bam:${SDK_VERSION}@aar"
     implementation "com.jumio.android:auth:${EXTRA_SDK_VERSION}@aar"
-	//compile(name:'nv-2.12.0', ext:'aar')
+	compile(name:'nv-2.12.0', ext:'aar')
     
     implementation "com.jumio.android:nv-mrz:${SDK_VERSION}@aar"
     implementation "com.jumio.android:nv-nfc:${SDK_VERSION}@aar"
