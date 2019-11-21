@@ -56,7 +56,7 @@ var disableAllowBackup = (function () {
 			
 			root._children.forEach(function(item) {
 				if(item.tag === 'application'){
-					item.set('tools:replace', 'android:value');
+					//item.set('tools:replace', 'android:value');
 				}
 			});
 				
