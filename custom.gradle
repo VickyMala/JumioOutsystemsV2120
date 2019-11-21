@@ -15,11 +15,11 @@ ext {
 }
 
 dependencies {
+	compile(name:'appcompat-1.0.0', ext:'aar')
     implementation "com.jumio.android:core:${SDK_VERSION}@aar"
     implementation "com.jumio.android:bam:${SDK_VERSION}@aar"
     implementation "com.jumio.android:auth:${EXTRA_SDK_VERSION}@aar"
 	compile(name:'nv-2.12.0', ext:'aar')
-    
     implementation "com.jumio.android:nv-mrz:${SDK_VERSION}@aar"
     implementation "com.jumio.android:nv-nfc:${SDK_VERSION}@aar"
     implementation "com.jumio.android:nv-ocr:${SDK_VERSION}@aar"
@@ -29,8 +29,8 @@ dependencies {
     implementation "com.jumio.android:dv:${SDK_VERSION}@aar"
 	
 	 //for core:
-    implementation "com.android.support:support-v4:27.1.1"
-    api "com.android.support:appcompat-v7:27.1.1"
+    //implementation "com.android.support:support-v4:27.1.1"
+    //api "com.android.support:appcompat-v7:27.1.1"
 
     //for nv:
     implementation "com.google.android.material:material:1.0.0"
