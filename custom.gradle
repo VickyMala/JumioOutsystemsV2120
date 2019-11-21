@@ -4,9 +4,9 @@ repositories {
     jcenter()
 	maven { url 'http://mobile-sdk.jumio.com' }
     maven { url 'https://maven.google.com/' }
-	flatDir {
+	/*flatDir {
         dirs 'libs'
-      }
+      }*/
 }
 
 ext {
