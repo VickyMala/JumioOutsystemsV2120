@@ -21,10 +21,15 @@
             <string>$CAMERA_USAGE_DESCRIPTION</string>
         </config-file>
         
-        <pods ios-min-version="9.0" use-frameworks="true">
-            <source url="https://github.com/CocoaPods/Specs.git" />
-        </pods>
-        <pod name="JumioMobileSDK" version="2.12.0" configurations="release,debug" />
+		<podspec>
+			<config>
+				<source url="https://github.com/CocoaPods/Specs.git" />
+			</config>
+			<pods ios-min-version="9.0" use-frameworks="true">
+				<pod name="JumioMobileSDK" version="2.12.0" configurations="release,debug" />
+			</pods>
+		</podspec>
+		
     </platform>
     
     <platform name="android">
